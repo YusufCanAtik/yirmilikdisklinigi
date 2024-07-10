@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{text-decoration: none !important;}
+.w-60{width: 60%;}
+.bi{font-size: 28px; color: #393939;}
+#footer a{color: #393939;}
+.baslik{font-weight: 400;}
+#tedaviler{text-align: center;}
+.tedavi .card:hover{-webkit-box-shadow: 1px 1px 10px 1px rgba(0,123,255,1);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0,123,255,1);
+    box-shadow: 1px 1px 10px 1px rgba(0,123,255,1);}
+#hekimler {text-align: center;}
+.hekim .card:hover{
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+}
+#hekimler a{cursor: pointer;color: #393939;}
+#hekimler a:hover{color: #007bff;}
+.blogYazı .card:hover{-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);}
+#aboutUsBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+.banner{padding: 120px 0px;background-position: center center;background-repeat: no-repeat;background-size: cover; color: #393939;}
+.banner a{color: #393939;}
+.hakkimiz .card:hover{
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+}
+#about a{cursor: pointer;color: #393939;}
+#about a:hover{color: #007bff;}
+#yagmurBanner{background-image: url(../img/yagmur-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+#yagmur .w-40{width: 500px;border-radius: 50%;}
+#tedavi{background-image: url(../img/hakkimizda-banner-1920x769.webp);}
+#disBeyazlatma .w-40{ width: 500px; border-radius: 50%;}
+#d-beyazlatmaBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+#galeri .modal-footer{justify-content: start;}
+#galeriBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+#blogBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+.makale .card:hover{-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.47);}
+#blogBanner4{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+#blog-4 .w-40{width: 500px;border-radius: 50%;}
+#iletisimBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+#kvkkBanner{background-image: url(../img/hakkimizda-banner-1920x769.webp); background-size: cover; background-repeat: no-repeat;}
+.iletisimCard .card:hover{-webkit-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 15px 4px rgba(0,0,0,0.49);}
+@media screen and (max-width: 750px) {
+    #yagmur .w-40{width: 350px;border-radius: 50%; margin-bottom: 40px;}
+    #yagmur h3{font-size: 24px;}
+    #blog-4 .w-40{width: 350px;border-radius: 50%; margin-bottom: 40px;}
+    #blog-4 .h2{font-size: 24px;}
+    .tedavi .mb{margin-bottom: 20px;}
+    #galeri .card-body{padding: 0px 0px;}
+    #tedaviler .col-md-4{margin-bottom: 20px;}
+    #hekimler .h1{font-size: 28px;}
+    #blog .col-md-3{margin-bottom: 20px;}
+    #about .col-md-4{margin-bottom: 20px;}
+    #disBeyazlatma .w-40{ width: 350px; border-radius: 50%; margin-top: 20px;}
+    
+    
+}
+
+
+
+
+
+
+
+ 
